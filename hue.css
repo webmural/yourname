@@ -1,0 +1,32 @@
+::selection {
+  background: #ee1;
+  color: darkviolet;
+}
+
+:root {
+  background-color: coral;
+  background-image: radial-gradient(plum, hotpink, violet, orchid, hotpink);
+  color: indigo;
+}
+
+:any-link {
+  color: indigo;
+  background-color: transparent;
+  text-shadow:
+    2vw -3vh 1pc,
+    3vw 3vh 1pc,
+    5vw -3vh 1pc,
+    -2vw 3vh 3pc;
+}
+
+:focus {
+  background-color: blueviolet;
+  color: plum;
+  outline: 1rem groove indigo;
+}
+
+a:hover {
+  color: indigo;
+  background-color: skyblue;
+}
+
